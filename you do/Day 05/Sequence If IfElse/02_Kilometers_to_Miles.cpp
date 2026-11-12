@@ -7,6 +7,6 @@ int main() {
     double kilometers = 10;
     double miles = kilometers * 0.621371;
 
-    cout << fixed << setprecision(2) << miles << '\n';
+    cout << miles << '\n';
     return 0;
 }
