@@ -9,6 +9,7 @@ int noOfDigits(int n){
     }
     return count;
 }
+
 int main(){
     int n;
     cout<<"enter number: ";
@@ -16,8 +17,9 @@ int main(){
 
     int rounds = 0;
     int product;
-    while(noOfDigits(n)!=1){
+    while(n>10){
         int sum =0;
+        for 
         for(int i = 0;i<noOfDigits(n);i++){
             sum += n%10;
             n = n/10;
